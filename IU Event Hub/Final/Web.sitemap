@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    Filename: Web.sitemap
+    Part of: Final Project
+    Created by: Ian Polito
+    Created on: 4/25/18
+    Last Modified on: 4/25/18
+-->
+
+<!-- Site map that includes links to all other pages for use with menu bar -->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+  <siteMapNode url="~/" title="Home" description="Home">
+    <siteMapNode url="~/Pages/Home.aspx" title="Home" description="Go Home" >
+    </siteMapNode>
+
+    <siteMapNode url="~/Pages/Order.aspx" title="Ordering" description="Order pizza now!" >
+    </siteMapNode>
+  
+    <siteMapNode url="~/Pages/Specials.aspx" title="Specials" description="See our great deals!" >
+    </siteMapNode>
+
+    <siteMapNode url="~/Pages/Login.aspx" title="Login" description="Sign up or login for more deals!" >
+    </siteMapNode>
+  
+    <siteMapNode url="~/Pages/About.aspx" title="About" description="About us" >
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
